@@ -1,0 +1,390 @@
+@font-face {
+  font-family: 'retapybl';
+  src:  url('fonts/retapybl.eot?7lzdy5');
+  src:  url('fonts/retapybl.eot?7lzdy5#iefix') format('embedded-opentype'),
+    url('fonts/retapybl.ttf?7lzdy5') format('truetype'),
+    url('fonts/retapybl.woff?7lzdy5') format('woff'),
+    url('fonts/retapybl.svg?7lzdy5#retapybl') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'retapybl' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ai_assistant_ic:before {
+  content: "\e93b";
+}
+.icon-ai_video_icon:before {
+  content: "\e944";
+}
+.icon-download_ic:before {
+  content: "\e947";
+}
+.icon-sort-arrows:before {
+  content: "\e948";
+}
+.icon-icon-video:before {
+  content: "\e949";
+}
+.icon-ai-video:before {
+  content: "\e94a";
+}
+.icon-ai-image:before {
+  content: "\e94b";
+}
+.icon-ai:before {
+  content: "\e94c";
+}
+.icon-bell-filled:before {
+  content: "\e94d";
+}
+.icon-video-recorder:before {
+  content: "\e94e";
+}
+.icon-trash:before {
+  content: "\e94f";
+}
+.icon-settings:before {
+  content: "\e950";
+}
+.icon-search-lg:before {
+  content: "\e951";
+}
+.icon-log-out:before {
+  content: "\e952";
+}
+.icon-image-mount:before {
+  content: "\e953";
+}
+.icon-home-line:before {
+  content: "\e954";
+}
+.icon-hard-drive:before {
+  content: "\e955";
+}
+.icon-file:before {
+  content: "\e956";
+}
+.icon-eraser:before {
+  content: "\e957";
+}
+.icon-edit:before {
+  content: "\e958";
+}
+.icon-credit-card-edit:before {
+  content: "\e959";
+}
+.icon-chevron-up:before {
+  content: "\e95a";
+}
+.icon-chevron-right:before {
+  content: "\e95b";
+}
+.icon-chevron-left:before {
+  content: "\e95c";
+}
+.icon-chevron-down:before {
+  content: "\e95d";
+}
+.icon-check:before {
+  content: "\e95e";
+}
+.icon-bell:before {
+  content: "\e95f";
+}
+.icon-arrow-narrow-right:before {
+  content: "\e960";
+}
+.icon-arrow-narrow-left:before {
+  content: "\e961";
+}
+.icon-arrow-narrow-down:before {
+  content: "\e962";
+}
+.icon-arrow-left:before {
+  content: "\e963";
+}
+.icon-laptop:before {
+  content: "\e964";
+}
+.icon-x-close:before {
+  content: "\e965";
+}
+.icon-x-circle:before {
+  content: "\e966";
+}
+.icon-users:before {
+  content: "\e967";
+}
+.icon-plus:before {
+  content: "\e968";
+}
+.icon-mail:before {
+  content: "\e969";
+}
+.icon-image:before {
+  content: "\e96a";
+}
+.icon-eye:before {
+  content: "\e96b";
+}
+.icon-dots-vertical:before {
+  content: "\e96c";
+}
+.icon-dots-horizontal:before {
+  content: "\e96d";
+}
+.icon-annotation-question:before {
+  content: "\e96e";
+}
+.icon-alert-circle:before {
+  content: "\e96f";
+}
+.icon-ai-magic:before {
+  content: "\e970";
+}
+.icon-send:before {
+  content: "\e971";
+}
+.icon-checkbox-filled .path1:before {
+  content: "\e915";
+  color: rgb(0, 0, 0);
+}
+.icon-checkbox-filled .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(34, 206, 41);
+}
+.icon-radiobutton-filled .path1:before {
+  content: "\e935";
+  color: rgb(0, 0, 0);
+}
+.icon-radiobutton-filled .path2:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(34, 206, 41);
+}
+.icon-type-folder_filled:before {
+  content: "\e92b";
+}
+.icon-type-folder_empty:before {
+  content: "\e92d";
+}
+.icon-type-bolder_x:before {
+  content: "\e939";
+}
+.icon-type50:before {
+  content: "\e900";
+}
+.icon-typeAdd-learner:before {
+  content: "\e901";
+}
+.icon-typeArrow-down:before {
+  content: "\e902";
+}
+.icon-typeAssign-Instructor:before {
+  content: "\e903";
+}
+.icon-typeChallenge-Branch:before {
+  content: "\e904";
+}
+.icon-typeCheck:before {
+  content: "\e905";
+}
+.icon-typeCheckbutton---filled:before {
+  content: "\e906";
+}
+.icon-typeChoice-Branch:before {
+  content: "\e907";
+}
+.icon-typeChvron-Down:before {
+  content: "\e908";
+}
+.icon-typeClock:before {
+  content: "\e909";
+}
+.icon-typeClose:before {
+  content: "\e90a";
+}
+.icon-typeCourse:before {
+  content: "\e90b";
+}
+.icon-typeCourses-templates:before {
+  content: "\e90c";
+}
+.icon-typeDifficulty:before {
+  content: "\e90d";
+}
+.icon-typeDisabled-Eye:before {
+  content: "\e90e";
+}
+.icon-typeDot:before {
+  content: "\e90f";
+}
+.icon-typeEdit-with-square:before {
+  content: "\e910";
+}
+.icon-typeEdit-without-square:before {
+  content: "\e911";
+}
+.icon-typeEmpty-Checkbox:before {
+  content: "\e912";
+}
+.icon-typeExit-Fullscreen:before {
+  content: "\e913";
+}
+.icon-typeEye:before {
+  content: "\e914";
+}
+.icon-typeFilter:before {
+  content: "\e917";
+}
+.icon-typeFlag:before {
+  content: "\e918";
+}
+.icon-typeFullscreen:before {
+  content: "\e919";
+}
+.icon-typeGo-Back:before {
+  content: "\e91a";
+}
+.icon-typeGradable-0:before {
+  content: "\e91b";
+}
+.icon-typeGradable-1:before {
+  content: "\e91c";
+}
+.icon-typeGradable-2:before {
+  content: "\e91d";
+}
+.icon-typeHeart:before {
+  content: "\e91e";
+}
+.icon-typeHelp:before {
+  content: "\e91f";
+}
+.icon-typeHome:before {
+  content: "\e920";
+}
+.icon-typeImage:before {
+  content: "\e921";
+}
+.icon-typeInformation:before {
+  content: "\e922";
+}
+.icon-typeLessson:before {
+  content: "\e923";
+}
+.icon-typeLike:before {
+  content: "\e924";
+}
+.icon-typeLog-out:before {
+  content: "\e925";
+}
+.icon-typeLoop:before {
+  content: "\e926";
+}
+.icon-typeMail:before {
+  content: "\e927";
+}
+.icon-typeMessage:before {
+  content: "\e928";
+}
+.icon-typeNotification---Empty:before {
+  content: "\e929";
+}
+.icon-typeNotification---Filled:before {
+  content: "\e92a";
+}
+.icon-typePage:before {
+  content: "\e92c";
+}
+.icon-typePlay-second-version:before {
+  content: "\e92e";
+}
+.icon-typePlay:before {
+  content: "\e92f";
+}
+.icon-typePlus-icon---Circle:before {
+  content: "\e930";
+}
+.icon-typePlus-icon:before {
+  content: "\e931";
+}
+.icon-typeProfile:before {
+  content: "\e932";
+}
+.icon-typeQuestion:before {
+  content: "\e933";
+}
+.icon-typeRadiobutton-empty:before {
+  content: "\e934";
+}
+.icon-typeReload:before {
+  content: "\e937";
+}
+.icon-typeSave:before {
+  content: "\e938";
+}
+.icon-typeSettings:before {
+  content: "\e93a";
+}
+.icon-typeShare:before {
+  content: "\e93c";
+}
+.icon-typeShuffle:before {
+  content: "\e93d";
+}
+.icon-typeSingle-choice:before {
+  content: "\e93e";
+}
+.icon-typeSound:before {
+  content: "\e93f";
+}
+.icon-typeSquare:before {
+  content: "\e940";
+}
+.icon-typeText:before {
+  content: "\e941";
+}
+.icon-typeThree-dots:before {
+  content: "\e942";
+}
+.icon-typeUsers:before {
+  content: "\e943";
+}
+.icon-typeVideo:before {
+  content: "\e945";
+}
+.icon-typeWarning:before {
+  content: "\e946";
+}
+.icon-typeMultiple-choice:before {
+  content: "\e929b";
+}
+.icon-typeOrganization:before {
+  content: "\e92cc";
+}
+.icon-typeSearch:before {
+  content: "\e934d";
+}
+.icon-typeRuler:before {
+  content: "\e938a";
+}
+.icon-typeTrash:before {
+  content: "\e943d";
+}
