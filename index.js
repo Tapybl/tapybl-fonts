@@ -1,5 +1,5 @@
 // Incluye el CSS para que se aplique automáticamente al importar el módulo
-require('./styles.css');
+import './styles.css';
 
 // Exporta rutas de las fuentes (opcional, por si se quieren usar directamente en JS)
 module.exports = {
