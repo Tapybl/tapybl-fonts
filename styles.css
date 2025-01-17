@@ -25,6 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-icon_plus_circle:before {
+  content: "\e96a";
+}
+.icon-icon_marketplace:before {
+  content: "\e973";
+  color: #6a7fa5;
+}
+.icon-icon_customize:before {
+  content: "\e974";
+  color: #6a7fa5;
+}
+.icon-icon_settings:before {
+  content: "\e975";
+  color: #6a7fa5;
+}
+.icon-icon_analytics:before {
+  content: "\e976";
+}
+.icon-icon_score:before {
+  content: "\e977";
+}
 .icon-send:before {
   content: "\e923";
 }
