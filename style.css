@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'retapybl';
-  src:  url('fonts/retapybl.eot?7lzdy5');
-  src:  url('fonts/retapybl.eot?7lzdy5#iefix') format('embedded-opentype'),
-    url('fonts/retapybl.ttf?7lzdy5') format('truetype'),
-    url('fonts/retapybl.woff?7lzdy5') format('woff'),
-    url('fonts/retapybl.svg?7lzdy5#retapybl') format('svg');
+  src:  url('./fonts/retapybl.eot?7lzdy5');
+  src:  url('./fonts/retapybl.eot?7lzdy5#iefix') format('embedded-opentype'),
+    url('./fonts/retapybl.ttf?7lzdy5') format('truetype'),
+    url('./fonts/retapybl.woff?7lzdy5') format('woff'),
+    url('./fonts/retapybl.svg?7lzdy5#retapybl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

@@ -1,12 +1,12 @@
-{
-  "name": "tapybl_fonts",
-  "version": "1.1.0",
-  "description": "This is the module necessary to show icons in tapybl app.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+// Incluye el CSS para que se aplique automáticamente al importar el módulo
+require('./styles.css');
+
+// Exporta rutas de las fuentes (opcional, por si se quieren usar directamente en JS)
+module.exports = {
+  fonts: {
+    eot: require('./fonts/retapybl.eot'),
+    svg: require('./fonts/retapybl.svg'),
+    ttf: require('./fonts/retapybl.ttf'),
+    woff: require('./fonts/retapybl.woff'),
   },
-  "keywords": [],
-  "author": "Anitech Solutions",
-  "license": "ISC"
-}
+};
