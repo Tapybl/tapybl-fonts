@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'retapybl';
-  src:  url('./fonts/retapybl.eot?7lzdy5');
-  src:  url('./fonts/retapybl.eot?7lzdy5#iefix') format('embedded-opentype'),
-    url('./fonts/retapybl.ttf?7lzdy5') format('truetype'),
-    url('./fonts/retapybl.woff?7lzdy5') format('woff'),
-    url('./fonts/retapybl.svg?7lzdy5#retapybl') format('svg');
+  src:  url('fonts/retapybl.eot?9k27fq');
+  src:  url('fonts/retapybl.eot?9k27fq#iefix') format('embedded-opentype'),
+    url('fonts/retapybl.ttf?9k27fq') format('truetype'),
+    url('fonts/retapybl.woff?9k27fq') format('woff'),
+    url('fonts/retapybl.svg?9k27fq#retapybl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,140 +25,143 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ai_assistant_ic:before {
+.icon-send:before {
+  content: "\e923";
+}
+.icon-square-arrow:before {
   content: "\e93b";
 }
-.icon-ai_video_icon:before {
+.icon-ai_assistant_ic:before {
   content: "\e944";
 }
-.icon-download_ic:before {
+.icon-ai_video_icon:before {
   content: "\e947";
 }
-.icon-sort-arrows:before {
+.icon-download_ic:before {
   content: "\e948";
 }
-.icon-icon-video:before {
+.icon-sort-arrows:before {
   content: "\e949";
 }
-.icon-ai-video:before {
+.icon-icon-video:before {
   content: "\e94a";
 }
-.icon-ai-image:before {
+.icon-ai-video:before {
   content: "\e94b";
 }
-.icon-ai:before {
+.icon-ai-image:before {
   content: "\e94c";
 }
-.icon-bell-filled:before {
+.icon-ai:before {
   content: "\e94d";
 }
-.icon-video-recorder:before {
+.icon-bell-filled:before {
   content: "\e94e";
 }
-.icon-trash:before {
+.icon-video-recorder:before {
   content: "\e94f";
 }
-.icon-settings:before {
+.icon-trash:before {
   content: "\e950";
 }
-.icon-search-lg:before {
+.icon-settings:before {
   content: "\e951";
 }
-.icon-log-out:before {
+.icon-search-lg:before {
   content: "\e952";
 }
-.icon-image-mount:before {
+.icon-log-out:before {
   content: "\e953";
 }
-.icon-home-line:before {
+.icon-image-mount:before {
   content: "\e954";
 }
-.icon-hard-drive:before {
+.icon-home-line:before {
   content: "\e955";
 }
-.icon-file:before {
+.icon-hard-drive:before {
   content: "\e956";
 }
-.icon-eraser:before {
+.icon-file:before {
   content: "\e957";
 }
-.icon-edit:before {
+.icon-eraser:before {
   content: "\e958";
 }
-.icon-credit-card-edit:before {
+.icon-edit:before {
   content: "\e959";
 }
-.icon-chevron-up:before {
+.icon-credit-card-edit:before {
   content: "\e95a";
 }
-.icon-chevron-right:before {
+.icon-chevron-up:before {
   content: "\e95b";
 }
-.icon-chevron-left:before {
+.icon-chevron-right:before {
   content: "\e95c";
 }
-.icon-chevron-down:before {
+.icon-chevron-left:before {
   content: "\e95d";
 }
-.icon-check:before {
+.icon-chevron-down:before {
   content: "\e95e";
 }
-.icon-bell:before {
+.icon-check:before {
   content: "\e95f";
 }
-.icon-arrow-narrow-right:before {
+.icon-bell:before {
   content: "\e960";
 }
-.icon-arrow-narrow-left:before {
+.icon-arrow-narrow-right:before {
   content: "\e961";
 }
-.icon-arrow-narrow-down:before {
+.icon-arrow-narrow-left:before {
   content: "\e962";
 }
-.icon-arrow-left:before {
+.icon-arrow-narrow-down:before {
   content: "\e963";
 }
-.icon-laptop:before {
+.icon-arrow-left:before {
   content: "\e964";
 }
-.icon-x-close:before {
+.icon-laptop:before {
   content: "\e965";
 }
-.icon-x-circle:before {
+.icon-x-close:before {
   content: "\e966";
 }
-.icon-users:before {
+.icon-x-circle:before {
   content: "\e967";
 }
-.icon-plus:before {
+.icon-users:before {
   content: "\e968";
 }
-.icon-mail:before {
+.icon-plus:before {
   content: "\e969";
 }
-.icon-image:before {
-  content: "\e96a";
-}
-.icon-eye:before {
+.icon-mail:before {
   content: "\e96b";
 }
-.icon-dots-vertical:before {
+.icon-image:before {
   content: "\e96c";
 }
-.icon-dots-horizontal:before {
+.icon-eye:before {
   content: "\e96d";
 }
-.icon-annotation-question:before {
+.icon-dots-vertical:before {
   content: "\e96e";
 }
-.icon-alert-circle:before {
+.icon-dots-horizontal:before {
   content: "\e96f";
 }
-.icon-ai-magic:before {
+.icon-annotation-question:before {
   content: "\e970";
 }
-.icon-send:before {
+.icon-alert-circle:before {
   content: "\e971";
+}
+.icon-ai-magic:before {
+  content: "\e972";
 }
 .icon-checkbox-filled .path1:before {
   content: "\e915";
@@ -285,9 +288,6 @@
 }
 .icon-typeInformation:before {
   content: "\e922";
-}
-.icon-typeLessson:before {
-  content: "\e923";
 }
 .icon-typeLike:before {
   content: "\e924";

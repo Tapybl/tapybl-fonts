@@ -1,12 +1,8 @@
-// Incluye el CSS para que se aplique automáticamente al importar el módulo
-import './styles.css';
+import './styles.css'; // Si es necesario para incluir el CSS
 
-// Exporta rutas de las fuentes (opcional, por si se quieren usar directamente en JS)
-module.exports = {
-  fonts: {
-    eot: require('./fonts/retapybl.eot'),
-    svg: require('./fonts/retapybl.svg'),
-    ttf: require('./fonts/retapybl.ttf'),
-    woff: require('./fonts/retapybl.woff'),
-  },
+export const fonts = {
+  eot: require('./fonts/retapybl.eot'),
+  svg: require('./fonts/retapybl.svg'),
+  ttf: require('./fonts/retapybl.ttf'),
+  woff: require('./fonts/retapybl.woff'),
 };
