@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'retapybl';
-  src:  url('fonts/retapybl.eot?9k27fq');
-  src:  url('fonts/retapybl.eot?9k27fq#iefix') format('embedded-opentype'),
-    url('fonts/retapybl.ttf?9k27fq') format('truetype'),
-    url('fonts/retapybl.woff?9k27fq') format('woff'),
-    url('fonts/retapybl.svg?9k27fq#retapybl') format('svg');
+  src:  url('fonts/retapybl.eot?gogl0u');
+  src:  url('fonts/retapybl.eot?gogl0u#iefix') format('embedded-opentype'),
+    url('fonts/retapybl.ttf?gogl0u') format('truetype'),
+    url('fonts/retapybl.woff?gogl0u') format('woff'),
+    url('fonts/retapybl.svg?gogl0u#retapybl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,26 +25,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-icon_plus_circle:before {
+.icon-checkmark-box:before {
+  content: "\e974";
+}
+.icon-remove-x:before {
+  content: "\e978";
+  color: #000;
+}
+.icon-add-box .path1:before {
+  content: "\e979";
+  color: rgb(255, 255, 255);
+}
+.icon-add-box .path2:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-add-box .path3:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-world:before {
   content: "\e96a";
 }
-.icon-icon_marketplace:before {
+.icon-unvisible:before {
   content: "\e973";
-  color: #6a7fa5;
 }
-.icon-icon_customize:before {
-  content: "\e974";
-  color: #6a7fa5;
-}
-.icon-icon_settings:before {
+.icon-player:before {
   content: "\e975";
-  color: #6a7fa5;
 }
-.icon-icon_analytics:before {
+.icon-house:before {
   content: "\e976";
 }
-.icon-icon_score:before {
+.icon-filter:before {
   content: "\e977";
+}
+.icon-average-score:before {
+  content: "\e97c";
 }
 .icon-send:before {
   content: "\e923";
