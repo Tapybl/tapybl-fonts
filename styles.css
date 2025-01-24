@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'retapybl';
-  src:  url('fonts/retapybl.eot?1czuja');
-  src:  url('fonts/retapybl.eot?1czuja#iefix') format('embedded-opentype'),
-    url('fonts/retapybl.ttf?1czuja') format('truetype'),
-    url('fonts/retapybl.woff?1czuja') format('woff'),
-    url('fonts/retapybl.svg?1czuja#retapybl') format('svg');
+  src:  url('fonts/retapybl.eot?7nkq6k');
+  src:  url('fonts/retapybl.eot?7nkq6k#iefix') format('embedded-opentype'),
+    url('fonts/retapybl.ttf?7nkq6k') format('truetype'),
+    url('fonts/retapybl.woff?7nkq6k') format('woff'),
+    url('fonts/retapybl.svg?7nkq6k#retapybl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-explore_integrations:before {
+.icon-icon_plus_circle:before {
   content: "\e97f";
+}
+.icon-icon_score:before {
+  content: "\e980";
+}
+.icon-icon_settings:before {
+  content: "\e981";
   color: #6a7fa5;
 }
 .icon-icon_customize:before {
