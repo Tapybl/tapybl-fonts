@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-courses_ic:before {
+  content: "\e982";
+}
+.icon-lessons_ic:before {
+  content: "\e983";
+}
 .icon-icon_plus_circle:before {
   content: "\e97f";
 }
